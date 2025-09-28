@@ -11,8 +11,6 @@
 #include "stm32f1xx.h"
 
 void USART1_Init(uint32_t baudrate);
-void USART1_SendChar(char c);
 void USART1_SendString(const char *str);
-char USART1_GetChar(void);
 
 #endif
